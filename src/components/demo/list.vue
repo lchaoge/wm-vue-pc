@@ -209,6 +209,9 @@ export default {
       			query2 :"", 
       			query3 :"", 
       			query4 :"", 
+      			query5 :"", 
+      			query6 :[], 
+      			query7 :"", 
       			currentPage: 1,
       			pageSize: 10,
       			totalPage: 1, // 多少页

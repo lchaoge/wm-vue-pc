@@ -97,7 +97,7 @@ a.more i{font-size: 12px; margin-left: 2px;}
 .custom-display{display: none;}
 /*lili展开收起*/
 .rtl-open{line-height: 20px; overflow-y: auto; max-height: 300px;}.rtl-over{line-height: 20px; overflow: hidden; height: 20px;}
-.condition-box{height: 60px;}
+.condition-box{height: 70px;}
 .rtl-check-box-white{margin-bottom: 10px !important; background-image: url("../images/white-check.png"); background-repeat: no-repeat; background-position: left center; cursor: pointer;}
 table .rtl-check-box-white{margin-bottom: 0 !important; font-weight: normal;}
 .rtl-check-box-blue{margin-bottom: 10px !important; background-image: url("../images/blue-check.png"); background-repeat: no-repeat; background-position: left center; cursor: pointer;}
@@ -125,13 +125,13 @@ table .rtl-check-box-blue{margin-bottom: 0 !important;}
 .drill-down-nav .icon{float: left; width: 26px; height: 40px; background: url("../images/bread-list.png") center no-repeat;}
 .order-table > thead > tr > th, .order-table > thead > tr > td{min-width: 100px; -ms-word-break: break-all; word-break: break-all; -ms-word-wrap: break-word; word-wrap: break-word;}
 .pr160{padding-right: 160px}
-.purCalendar-label{width: 50px; position: absolute; left: -12px; top: -2px; !important;}
-.purCalendar-div{float: left; padding: 0 0 0 50px; !important;}
+.purCalendar-label{width: 50px; position: absolute; left: -12px; top: -2px; }
+.purCalendar-div{float: left; padding: 0 0 0 50px;}
 /*vue样式*/
 #app .el-main{padding: 0;}
 #app .el-breadcrumb{line-height: 38px;}
 #app .rtl-custom-box .box-hd{padding: 10px 15px; background-color: #fff; border: 0px none;}
-#app .rtl-custom-box .box-hd .cont{overflow: hidden; padding: 15px 15px 0; background-color: #F6F8FA;}
+#app .rtl-custom-box .box-hd .cont{overflow: hidden; padding: 15px; background-color: #F6F8FA;}
 #app .custom-content{border: 1px solid #fff; border-radius: 0; overflow: hidden; background-color: #fff;}
 #app .has-gutter th,#app .el-table__header th{background-color: #EEF6FF;color: #222;font-weight: normal;}
 #app .form-horizontal .control-label{line-height: normal;}

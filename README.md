@@ -1,21 +1,32 @@
-# wm-partner-web
+# wm-vue-pc
 
-> this is wm-partner-web
+#npm
+`npm 是 JavaScript 世界的包管理工具，并且是 Node.js 平台的默认包管理工具。通过 npm 可以安装、共享、分发代码，管理项目依赖关系。`
+
+##webpack
+`webpack 是一个模块打包器。webpack 的主要目标是将 JavaScript 文件打包在一起，打包后的文件用于在浏览器中使用，但它也能够胜任转换(transform)、打包(bundle)或包裹(package)任何资源(resource or asset)。`
+
+##vue指令
+
+##vue-router
+
+##element-ui
+
+> this is wm-vue-pc
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 加载依赖包
 npm install
 
-# serve with hot reload at localhost:8080
+# 在本地主机上热重载服务： localhost:8080
 npm run dev
 
-# build for production with minification
+# 打包系统
 npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
