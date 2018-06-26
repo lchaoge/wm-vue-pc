@@ -194,7 +194,7 @@
 export default {
     data() {
       return {
-				pageOpt: {showCond: true},
+		pageOpt: {showCond: true},
       	options:[],
       	addDialogDisabled:false,
       	pageData:{
@@ -234,10 +234,13 @@ export default {
       }
     },
     created(){
-			let height = document.documentElement.clientHeight
-			this.pageData.addDialog.tableHeight = height*0.4
+		let height = document.documentElement.clientHeight
+		this.pageData.addDialog.tableHeight = height*0.4
     },
     computed:{
+    	
+    },
+    mounted(){
     	
     },
     methods: {
@@ -284,11 +287,11 @@ export default {
     		
     	},
     	clearEvt(){
-    		this.pageData.addDialog.dialogFormVisible = true
-			},
-			toggleCond() {
-				this.pageOpt.showCond = !this.pageOpt.showCond
-      },
+			this.pageData.addDialog.dialogFormVisible = true
+		},
+		toggleCond() {
+			this.pageOpt.showCond = !this.pageOpt.showCond
+      	},
       queryEvt() {
       	const loading = this.$loading({
           lock: true,
@@ -297,11 +300,11 @@ export default {
         })
       	let obj = {
       		siteNo :this.pageData.tableObj.query1, 
-					shopType :this.pageData.tableObj.query2, 
-					status :this.pageData.tableObj.query3, 
-					mandt :this.pageData.tableObj.query4, 
-					currentPage :this.pageData.tableObj.currentPage, 
-					pageSize :this.pageData.tableObj.pageSize 
+			shopType :this.pageData.tableObj.query2, 
+			status :this.pageData.tableObj.query3, 
+			mandt :this.pageData.tableObj.query4, 
+			currentPage :this.pageData.tableObj.currentPage, 
+			pageSize :this.pageData.tableObj.pageSize 
       	}
         fetch(this.$api.urls.POST_PARTNER_QUERYSITESHOP,{
         	method:'post',

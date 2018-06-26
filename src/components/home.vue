@@ -11,9 +11,11 @@
 					<h1 style="font-size: 30px;line-height: 50px;margin:20px 0;">欢迎进入物美系统！</h1>
 					<div class="mb10">
 						<router-link :to="{name:'listLink'}">
-					  	<el-button type="success">列表</el-button>
-					  </router-link>
-					  
+					  	    <el-button type="success">列表</el-button>
+					    </router-link>
+					  	<router-link :to="{name:'addLink'}">
+					  	    <el-button type="success">新增</el-button>
+					    </router-link>
 					</div>
 					
 				</div>
